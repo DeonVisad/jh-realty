@@ -9,8 +9,8 @@ const Footer = () => {
                 <img src={fpotc} className='w-24 h-auto' />
             </div>
             <div className='flex flex-col text-end'>
-                <h1 className='font-inter md:text-2xl uppercase font-semibold'>Jennifer Henderson</h1>
-                <p className='underline font-dm cursor-pointer' onClick={(e) => {window.location.href ='mailto:jennifer.henderson@fpotc.com';}}>jennifer.henderson@fpotc.com</p>
+                <h1 className='font-karla md:text-2xl uppercase font-semibold'>Jennifer Henderson</h1>
+                <p className='underline font-karla cursor-pointer' onClick={(e) => {window.location.href ='mailto:jennifer.henderson@fpotc.com';}}>jennifer.henderson@fpotc.com</p>
             </div>
         </div>
     </footer>
