@@ -9,7 +9,7 @@ const MeetAgent = () => {
         <div className='flex md:flex-row flex-col justify-around items-center w-3/4 md:mt-20 my-5'>
             <div className='flex flex-col items-center my-5 font-karla'>
                 <img className='h-72 w-72 md:h-96 md:w-96 mb-5 ' src={portrait} />
-                <p className='underline cursor-pointer hover:font-semibold' onClick={window.open('tel:7045077380')}>(777)-777-7777</p>
+                <p className='underline cursor-pointer hover:font-semibold' onClick={(e) => {document.location.href='tel:7777777777'}}>(777)-777-7777</p>
                 <p className='underline cursor-pointer hover:font-semibold' onClick={(e) => {window.location.href='mailto:jennifer.henderson@fpotc.com'}}>jennifer.henderson@fpotc.com</p>
             </div>
             <div className='w-full text-sm md:w-1/2'>

@@ -10,6 +10,9 @@ module.exports = {
         'notoSans': ['Noto Sans', 'sans-serif'],
         'karla' : ['Karla', 'sans-serif'],
         'playfair': ['Playfair Display', 'serif'],
+      },
+      backgroundImage: {
+        'charlotte': "url('/src/Assets/charlotte-uptown.jpg')",
       }
     },
   },

@@ -1,0 +1,7 @@
+.background {
+    background-image: url('../../Assets/charlotte-uptown.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    mix-blend-mode: darken;
+}
