@@ -3,7 +3,7 @@ import fpotc from '../../Assets/fpotc.gif'
 
 const Footer = () => {
   return (
-    <footer className='flex md:flex-row flex-col w-full bg-black absolute bottom-0 text-white '>
+    <footer className='flex md:flex-row flex-col w-full bg-zinc-900 relative bottom-0 text-white '>
         <div className='flex w-full justify-around items-center my-5'>
             <div className='flex'>
                 <img src={fpotc} className='w-24 h-auto' />

@@ -16,9 +16,9 @@ function App() {
       <Routes>
         <Route index path='/' element={<Home />} />
         <Route path='/buyingprocess' element={<BuyingProcess />}/>
-        <Route path='FirstTimeHomeBuyer' element={<FirstTimeBuyer />}/>
-        <Route path='FreeCma' element={<FreeCma />}/>
-        <Route path='ListingProcess' element={<ListingProcess />}/>
+        <Route path='/firstTimeHomeBuyer' element={<FirstTimeBuyer />}/>
+        <Route path='/freeCma' element={<FreeCma />}/>
+        <Route path='/listingProcess' element={<ListingProcess />}/>
         <Route path='/contact' element={<Contact />}/>
       </Routes>
       
