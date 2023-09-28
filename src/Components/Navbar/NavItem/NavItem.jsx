@@ -57,7 +57,7 @@ const NavItem = (props) => {
               <div className={mobileNav ? 'flex flex-col absolute top-0 h-screen w-full bg-zinc-900' : 'hidden'}>
                 <div className='flex flex-col h-screen justify-center items-around text-xl font-playfair text-zinc-400 ' onClick={mobileHandler}>
                 <Link to='/'><li className='px-4 py-2 cursor-pointer hover:text-white hover:underline hover:underline-offset-4'>Home</li></Link>
-                <Link to='/meetAgent'><li className='px-4 py-2 cursor-pointer hover:text-white hover:underline hover:underline-offset-4'><Scroll to='meetAgent' smooth={true} offset={-70}>Meet Jennifer</Scroll></li></Link>
+                <Link to='#meetAgent'><li className='px-4 py-2 cursor-pointer hover:text-white hover:underline hover:underline-offset-4'><Scroll to='meetAgent' smooth={true} offset={-70}>Meet Jennifer</Scroll></li></Link>
                 <Link to='/buyingprocess'><li className='px-4 py-2 hover:text-[#F05454] cursor-pointe hover:underline hover:underline-offset-4'>Buying Process</li></Link>
                 <Link to='/firstTimeHomeBuyer'><li className='px-4 py-2 hover:text-[#F05454] cursor-pointer hover:underline hover:underline-offset-4'>First Time Buyer</li></Link>
                 <Link to='/listingProcess'><li className='px-4 py-2 hover:text-[#F05454] cursor-pointer hover:underline hover:underline-offset-4'>Listing Process</li></Link>

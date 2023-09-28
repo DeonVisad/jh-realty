@@ -3,7 +3,7 @@ import portrait from '../../Assets/Jennifer.png';
 
 const MeetAgent = () => {
   return (
-    <div name='meetAgent' className='flex flex-col justify-center items-center w-full '>
+    <div name='meetAgent' id='#meetAgent' className='flex flex-col justify-center items-center w-full '>
         <h2 className='md:text-4xl text-3xl font-playfair text-black text-center'>5 Stars on Realtor.com</h2>
         
         <div className='flex md:flex-row flex-col justify-around items-center w-3/4 md:mt-20 my-5'>

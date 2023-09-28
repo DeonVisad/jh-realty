@@ -7,6 +7,7 @@ import FirstTimeBuyer from './Pages/FirstTimeBuyer/FirstTimeBuyer';
 import FreeCma from './Pages/FreeCma/FreeCma';
 import ListingProcess from './Pages/ListingProcess/ListingProcess';
 import Contact from './Pages/Contact/Contact';
+import MeetAgent from './Components/MeetAgent/MeetAgent';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path='/freeCma' element={<FreeCma />}/>
         <Route path='/listingProcess' element={<ListingProcess />}/>
         <Route path='/contact' element={<Contact />}/>
+        <Route path='#meetAgent' element={<MeetAgent />} />
       </Routes>
       
     </div>

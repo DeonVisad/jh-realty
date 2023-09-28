@@ -5,6 +5,8 @@ import {AiOutlineMail} from 'react-icons/ai';
 import {FiMapPin} from 'react-icons/fi';
 import Footer from '../../Components/Footer/Footer';
 
+import ReCAPTCHA from 'react-google-recaptcha';
+
 const Contact = () => {
 
   return (
@@ -57,6 +59,7 @@ const Contact = () => {
                 <p className='text-xs font-karla text-white w-3/4 m-4'>By providing Jennifer Henderson your contact information, you acknowledge and agree to our Privacy Policy and consent to receiving marketing communications, including through automated calls, texts, and emails, some of which may use artificial or prerecorded voices. This consent isn’t necessary for purchasing any products or services and you may opt out at any time. To opt out from texts, you can reply, ‘stop’ at any time. To opt out from emails, you can click on the unsubscribe link in the emails. Message and data rates may apply.</p>
                 <input type="hidden" name="_gotcha" className='display-none' />
                 <button className='text-white md:text-2xl font-karla px-7 py-4 border-2 border-white hover:bg-black w-3/4'>SUBMIT</button>
+                <ReCAPTCHA required className='mt-2' sitekey={process.env.REACT_APP_SITE_KEY}/>
               </div>
               
             </form>
