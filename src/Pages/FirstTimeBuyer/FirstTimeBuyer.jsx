@@ -1,6 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import buyer from '../../Assets/townhome.jpg';
 import Footer from '../../Components/Footer/Footer';
+import charlotte from '../../Assets/charlotte.jpg'
+
 
 const FirstTimeBuyer = () => {
   return (
@@ -60,6 +64,15 @@ In conclusion, buying a home is a significant milestone, and with the right guid
 
       </div>
     </article>
+    <div className='flex w-full justify-center items-center'>
+        <div className='absolute flex flex-col justify-center items-center z-[11] text-white w-full'>
+          <h2 className='text-center text-xl md:text-4xl font-playfair '>Where Local Expertise & Passion Meet</h2>
+          <div className='flex w-24 h-8 border-b-[1px] border-white'></div>
+          <p className='font-karla text-center pt-6 text-md md:text-lg '>Please feel free to explore our website, and contact Jennifer with any questions you may have.</p>
+          <Link to='/contact'><button className='h-12 w-36 border-white border-2 text-white text-xs font-karla mt-6 uppercase hover:bg-white hover:text-black'>Contact Me</button></Link>
+        </div>
+        <img src={charlotte} className='max-h-[800px] w-full brightness-50' /> 
+      </div>
       <Footer />
     </div>
   )

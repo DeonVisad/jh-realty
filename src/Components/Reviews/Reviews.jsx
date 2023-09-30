@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import houses from '../../Assets/kitchen.jpg';
+import livingroom from '../../Assets/livingRoom.jpg';
 import {GrNext, GrPrevious} from 'react-icons/gr';
 import testimonials from './ReviewData.js';
 
@@ -25,7 +25,7 @@ const Reviews = () => {
             <button className='md:text-2xl' onClick={handleNext}><GrNext /></button>
         </div>
         <div className='flex justify-center md:h-3/4 w-full md:pt-8'>
-            <img className='w-full h-auto opacity-60 brightness-50' src={houses}/>
+            <img className='w-full h-auto opacity-60 brightness-50' src={livingroom}/>
         </div>
     </div>
   )

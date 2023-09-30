@@ -38,7 +38,7 @@ const NavItem = (props) => {
                 </div> : null}
             </li>
             
-            <li className='px-4 cursor-pointer hover:text-white' onMouseEnter={() => setOpenSell(true) & setOpen(false)}><Link>Sell</Link>
+            <li className='px-4 cursor-pointer hover:text-white' onMouseEnter={() => setOpenSell(true) & setOpen(false)}><Link to='/listingProcess'>Sell</Link>
             {openSell ? <div className='flex absolute top-12 bg-black/50 text-white h-20 w-36 justify-center
             items-center transition '> 
                 <ul className=''>
@@ -56,7 +56,7 @@ const NavItem = (props) => {
               </div>
               <div className={mobileNav ? 'flex flex-col absolute top-0 h-screen w-full bg-zinc-900' : 'hidden'}>
                 <div className='flex flex-col h-screen justify-center items-around text-xl font-playfair text-zinc-400 ' onClick={mobileHandler}>
-                <Link to='/'><li className='px-4 py-2 cursor-pointer hover:text-white hover:underline hover:underline-offset-4'>Home</li></Link>
+                <Link to='/'><li className='px-4 py-2 cursor-pointer hover:text-[#F05454] hover:underline hover:underline-offset-4'>Home</li></Link>
                 <Link to='/buyingprocess'><li className='px-4 py-2 hover:text-[#F05454] cursor-pointe hover:underline hover:underline-offset-4'>Buying Process</li></Link>
                 <Link to='/firstTimeHomeBuyer'><li className='px-4 py-2 hover:text-[#F05454] cursor-pointer hover:underline hover:underline-offset-4'>First Time Buyer</li></Link>
                 <Link to='/listingProcess'><li className='px-4 py-2 hover:text-[#F05454] cursor-pointer hover:underline hover:underline-offset-4'>Listing Process</li></Link>

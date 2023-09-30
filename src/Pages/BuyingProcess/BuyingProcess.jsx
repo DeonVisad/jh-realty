@@ -12,7 +12,7 @@ const BuyingProcess = () => {
 
       <div className='flex justify-center items-center '>
         <h1 className='absolute text-6xl z-[11] font-playfair text-white'>Buyers</h1>
-        <img src={house} className='max-h-[800px] w-full z-10 brightness-75' />
+        <img src={house} className='max-h-[800px] w-full z-10 brightness-50' />
       </div>
 
       <div className='flex w-full justify-center items-center h-[400px]'>
@@ -71,10 +71,10 @@ const BuyingProcess = () => {
       </div>
 
       <div className='flex w-full justify-center items-center'>
-        <div className='absolute flex flex-col justify-center items-center z-[11] text-white w-3/4'>
-          <h2 className='text-center text-4xl font-playfair '>Where Local Expertise & Passion Meet</h2>
+        <div className='absolute flex flex-col justify-center items-center z-[11] text-white w-full'>
+          <h2 className='text-center text-xl md:text-4xl font-playfair '>Where Local Expertise & Passion Meet</h2>
           <div className='flex w-24 h-8 border-b-[1px] border-white'></div>
-          <p className='font-karla text-center pt-6 text-lg '>Please feel free to explore our website, and contact Jennifer with any questions you may have.</p>
+          <p className='font-karla text-center pt-6 text-md md:text-lg '>Please feel free to explore our website, and contact Jennifer with any questions you may have.</p>
           <Link to='/contact'><button className='h-12 w-36 border-white border-2 text-white text-xs font-karla mt-6 uppercase hover:bg-white hover:text-black'>Contact Me</button></Link>
         </div>
         <img src={lake} className='max-h-[800px] w-full brightness-50' /> 

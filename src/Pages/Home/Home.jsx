@@ -1,6 +1,4 @@
 import React from 'react'
-import Navbar from '../../Components/Navbar/Navbar';
-import livingRoom from '../../Assets/livingRoom.jpg';
 import drone from '../../Assets/drone.mp4';
 import MeetAgent from '../../Components/MeetAgent/MeetAgent';
 import Reviews from '../../Components/Reviews/Reviews';
