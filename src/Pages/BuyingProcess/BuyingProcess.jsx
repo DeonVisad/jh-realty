@@ -12,7 +12,7 @@ const BuyingProcess = () => {
 
       <div className='flex justify-center items-center '>
         <h1 className='absolute text-6xl z-[11] font-playfair text-white'>Buyers</h1>
-        <img src={house} className='max-h-[800px] w-full z-10 brightness-50' />
+        <img src={house} className='max-h-[800px] w-full z-10 brightness-50' alt='a house' />
       </div>
 
       <div className='flex w-full justify-center items-center h-[400px]'>
@@ -77,7 +77,7 @@ const BuyingProcess = () => {
           <p className='font-karla text-center pt-6 text-md md:text-lg '>Please feel free to explore our website, and contact Jennifer with any questions you may have.</p>
           <Link to='/contact'><button className='h-12 w-36 border-white border-2 text-white text-xs font-karla mt-6 uppercase hover:bg-white hover:text-black'>Contact Me</button></Link>
         </div>
-        <img src={lake} className='max-h-[800px] w-full brightness-50' /> 
+        <img src={lake} className='max-h-[800px] w-full brightness-50' alt='lake and mountains' /> 
       </div>
       <Footer />
     </div>

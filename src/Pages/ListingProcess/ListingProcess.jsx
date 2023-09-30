@@ -76,7 +76,7 @@ const ListingProcess = () => {
           <p className='font-karla text-center pt-6 text-md md:text-lg '>Please feel free to explore our website, and contact Jennifer with any questions you may have.</p>
           <Link to='/contact'><button className='h-12 w-36 border-white border-2 text-white text-xs font-karla mt-6 uppercase hover:bg-white hover:text-black'>Contact Me</button></Link>
         </div>
-        <img src={skyline} className='max-h-[800px] w-full brightness-50' /> 
+        <img src={skyline} className='max-h-[800px] w-full brightness-50' alt='charlotte north carolina skyline' /> 
       </div>
       <Footer />
     </div>

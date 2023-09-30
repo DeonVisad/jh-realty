@@ -25,7 +25,7 @@ const Reviews = () => {
             <button className='md:text-2xl' onClick={handleNext}><GrNext /></button>
         </div>
         <div className='flex justify-center md:h-3/4 w-full md:pt-8'>
-            <img className='w-full h-auto opacity-60 brightness-50' src={livingroom}/>
+            <img className='w-full h-auto opacity-60 brightness-50' src={livingroom} alt='A living room'/>
         </div>
     </div>
   )

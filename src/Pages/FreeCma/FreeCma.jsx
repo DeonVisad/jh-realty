@@ -12,7 +12,7 @@ const FreeCma = () => {
     <div className='flex flex-col justify-center items-center '>
       <h1 className='absolute text-2xl md:text-6xl z-[11] font-playfair text-white'>Get the Most Out of Your Home</h1>
       <p className='absolute font-karla z-[11] pt-32 md:pt-52 uppercase text-center md:text-lg text-sm text-white'>Unlock Your Property's True Worth with a CMA Today</p>
-      <img src={welcome} className='max-h-[800px] w-full z-10 brightness-50' />
+      <img src={welcome} alt='welcome sign' className='max-h-[800px] w-full z-10 brightness-50' />
     </div>
     <div className='flex flex-col justify-center items-center m-8'>
       <h1 className='font-playfair text-2xl underline underline-offset-8 decoration-[#F05454] border-black'>What is a CMA?</h1>
@@ -26,7 +26,7 @@ const FreeCma = () => {
           <p className='font-karla text-center pt-6 text-md md:text-lg '>Please feel free to explore our website, and contact Jennifer with any questions you may have.</p>
           <Link to='/contact'><button className='h-12 w-36 border-white border-2 text-white text-xs font-karla mt-6 uppercase hover:bg-white hover:text-black'>Contact Me</button></Link>
         </div>
-        <img src={lake} className='max-h-[800px] w-full brightness-50' /> 
+        <img src={lake} alt='lake dock' className='max-h-[800px] w-full brightness-50' /> 
       </div>
 
     <Footer />

@@ -15,7 +15,7 @@ const FirstTimeBuyer = () => {
         <p className='font-karla w-3/4 text-center mt-4 '>Your first experience in the home buying process may seem overwhelming but it doesn't have to be.</p>
       </div>
       <div className='flex mt-8 justify-center'>
-        <img src={buyer} className='w-3/4 max-h-[600px]'/>
+        <img src={buyer} className='w-3/4 max-h-[600px]' alt='townhome'/>
       </div>
       <div className='md:w-1/2 w-3/4 my-8 flex flex-col font-karla text-justify'>
       
@@ -71,7 +71,7 @@ In conclusion, buying a home is a significant milestone, and with the right guid
           <p className='font-karla text-center pt-6 text-md md:text-lg '>Please feel free to explore our website, and contact Jennifer with any questions you may have.</p>
           <Link to='/contact'><button className='h-12 w-36 border-white border-2 text-white text-xs font-karla mt-6 uppercase hover:bg-white hover:text-black'>Contact Me</button></Link>
         </div>
-        <img src={charlotte} className='max-h-[800px] w-full brightness-50' /> 
+        <img src={charlotte} className='max-h-[800px] w-full brightness-50' alt='charlotte north carolina skyline' /> 
       </div>
       <Footer />
     </div>

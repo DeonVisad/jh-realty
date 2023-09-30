@@ -8,7 +8,7 @@ const MeetAgent = () => {
         
         <div className='flex md:flex-row flex-col justify-around items-center w-3/4 md:mt-20 my-5'>
             <div className='flex flex-col items-between w-full my-5 font-karla'>
-                <img className='h-72 w-72  mb-5 ' src={portrait} />
+                <img className='h-72 w-72  mb-5 ' src={portrait} alt='Jennifer Henderson' />
                 <p className='underline cursor-pointer hover:font-semibold' onClick={(e) => {document.location.href='tel:+17045077380'}}>(704)-507-7380</p>
                 <p className='underline cursor-pointer hover:font-semibold' onClick={(e) => {window.location.href='mailto:jhenderson7687@gmail.com'}}>jennifer.henderson@fpotc.com</p>
             </div>
@@ -20,7 +20,7 @@ const MeetAgent = () => {
                 </p>
                 <div className='flex flex-row items-center'>
                   <button className='h-12 w-36 border-black border-2 text-black text-xs font-karla mt-6 uppercase hover:bg-black hover:text-white' onClick={(e) => {window.location.href='mailto:jhenderson7687@gmail.com'}}>Contact Me</button> 
-                  <a href='https://www.realtor.com/realestateagents/jennifer-henderson_lake-wylie_sc_2181992_' target='_blank'><button className='h-12 w-36 ml-4  text-black text-xs font-karla mt-6 uppercase hover:font-semibold'>Check Out My Reviews</button></a>
+                  <a href='https://www.realtor.com/realestateagents/jennifer-henderson_lake-wylie_sc_2181992_' rel='noreferrer' target='_blank'><button className='h-12 w-36 ml-4  text-black text-xs font-karla mt-6 uppercase hover:font-semibold'>Check Out My Reviews</button></a>
                 </div>
             </div>
         </div>
