@@ -39,8 +39,6 @@ const FirstTimeBuyer = () => {
     <p className='mt-5'><span className='font-semibold font-playfair text-xl'>Step 6: Secure Financing </span>
     Finalize your mortgage application with your chosen lender. Provide any requested documentation, such as bank statements, pay stubs, and tax returns. The lender will also conduct an appraisal of the property to ensure its value aligns with the loan amount.</p>
 
-    <p className='mt-5'><span className='font-semibold font-playfair text-xl'>Step 6: Secure Financing </span>
-    Finalize your mortgage application with your chosen lender. Provide any requested documentation, such as bank statements, pay stubs, and tax returns. The lender will also conduct an appraisal of the property to ensure its value aligns with the loan amount.</p>
 
     <p className='mt-5'><span className='font-semibold font-playfair text-xl'>Step 7: Review and Sign Documents </span>
     Carefully review all the documents related to the purchase, including the purchase agreement, loan documents, and closing disclosures. If everything looks good, sign the necessary paperwork. Be sure to ask questions and seek clarification if needed.</p>
