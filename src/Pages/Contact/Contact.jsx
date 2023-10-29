@@ -10,7 +10,7 @@ import ReCAPTCHA from 'react-google-recaptcha';
 const Contact = () => {
 
   return (
-    <div className='background h-screen flex flex-col justify-center z-10'>
+    <div className='background md:h-screen md:pb-0 pb-4 flex flex-col justify-center z-10'>
       <div className='flex flex-col md:flex-row md:items-start items-start md:justify-around mt-20 ml-6 z-11'>
         <div className='flex flex-col items-start border-white text-white'>
           <h1 className='md:text-5xl font-playfair mb-3 mr-2'>Contact Details</h1>

@@ -15,7 +15,7 @@ const Footer = () => {
                 <h1 className='font-karla md:text-xl uppercase font-semibold'>Jennifer Henderson</h1>
                 <p className='underline font-karla cursor-pointer' onClick={(e) => {window.location.href ='mailto:jennifer.henderson@fpotc.com';}}>jennifer.henderson@fpotc.com</p>
                 <div className='flex'>
-                  <a className='m-2 text-xl cursor-pointer text-zinc-400 hover:text-white' rel='noreferrer'><BsInstagram /></a>
+                  <a href='https://www.instagram.com/jenniferhendersonrealtor/' target='_blank' className='m-2 text-xl cursor-pointer text-zinc-400 hover:text-white' rel='noreferrer'><BsInstagram /></a>
                   <a href='https://www.linkedin.com/in/jennifer-henderson-260849108/' target='_blank' rel='noreferrer' className='m-2 text-xl cursor-pointer text-zinc-400 hover:text-white'><BsLinkedin /></a>
                   <a href='https://www.facebook.com/FirstProperties/' target='_blank' rel='noreferrer' className='m-2 text-xl cursor-pointer text-zinc-400 hover:text-white'><BsFacebook /></a>
                 </div>
